@@ -1,5 +1,6 @@
 def my_each(array)
-  while array.length > 0
-    yield(i)
-    puts i
+  i = 0
+  while i < array.length
+     puts i 
+   end
 end
